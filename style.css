@@ -1,0 +1,52 @@
+.card-container{ 
+    display:flex;
+    justify-content: space-around;
+    gap: 20px
+}
+
+.card{
+    padding:20px;
+    background-color: lightgray;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+ul li{
+   text-decoration: none; 
+   list-style: none;
+   font-size: 23px;
+   padding: 10px;
+
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin-left: 10px;
+}
+
